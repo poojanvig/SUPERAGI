@@ -7,7 +7,7 @@ class GreetingsInput(BaseModel):
     greetings: str = Field(..., description="Greeting message to be sent")
 
 
-class GreetingsTool(BaseTool):  
+class GreetingsTool(BaseTool):
     """
     Greetings Tool
     """
